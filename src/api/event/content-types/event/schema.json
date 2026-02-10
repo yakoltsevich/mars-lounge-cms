@@ -17,6 +17,16 @@
     },
     "description": {
       "type": "text"
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "timeStart": {
+      "type": "time"
+    },
+    "timeEnd": {
+      "type": "time"
     }
   }
 }
