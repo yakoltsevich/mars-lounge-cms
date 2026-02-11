@@ -453,7 +453,7 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
       Schema.Attribute.Required &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     description: Schema.Attribute.Text &
@@ -468,13 +468,13 @@ export interface ApiEventEvent extends Struct.CollectionTypeSchema {
     timeEnd: Schema.Attribute.Time &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     timeStart: Schema.Attribute.Time &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
-          localized: true;
+          localized: false;
         };
       }>;
     title: Schema.Attribute.String &
